@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bariko Prastowo — Information Technology Student</title>
+<meta name="description" content="Portfolio pribadi Bariko Prastowo, mahasiswa Teknologi Informasi, Software Developer, Mobile Developer, dan UI/UX Enthusiast." />
+<link rel="stylesheet" href="style_porto.css" />
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo">Bariko<span class="dot">.</span></a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#home" class="nav-link" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary btn--sm navbar__cta">Let's Talk</a>
+
+      <button class="navbar__burger" id="burgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="navbar__mobile" id="mobileMenu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero">
+    <div class="hero__bg-shape hero__bg-shape--1"></div>
+    <div class="hero__bg-shape hero__bg-shape--2"></div>
+    <div class="container hero__inner">
+
+      <div class="hero__text reveal">
+        <div class="hero__badge">
+          <span class="badge-dot"></span>
+          Available for internship &amp; collaboration
+        </div>
+
+        <h1 class="hero__title">
+          Bariko<br /><span class="text-gradient">Prastowo</span>
+        </h1>
+
+        <p class="hero__subtitle">Information Technology Student</p>
+
+        <div class="hero__typing">
+          <span id="typedRole" class="hero__typing-text"></span><span class="cursor">|</span>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">
+            View Projects
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="Bariko-Prastowo-CV.pdf" download class="btn btn--ghost">
+            Download CV
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal" style="transition-delay:120ms">
+        <div class="hero__photo-wrap">
+          <div class="hero__photo-ring"></div>
+          <img src="profile.png" alt="Foto profil Bariko Prastowo" class="hero__photo" />
+          <div class="hero__chip hero__chip--2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>
+            Information Technology Student
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="section-label__index">01</span>
+        <span class="section-label__line"></span>
+        <span class="section-label__text">About</span>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <h2 class="section-title">Menghadirkan solusi digital dari kode hingga jaringan.</h2>
+          <p>
+            Saya merupakan mahasiswa Teknologi Informasi yang memiliki ketertarikan pada pengembangan
+            perangkat lunak, machine learning, mobile application, UI/UX, serta jaringan komputer. Saya
+            telah mengerjakan berbagai proyek akademik mulai dari sistem informasi berbasis web, aplikasi
+            mobile Flutter, implementasi machine learning menggunakan CNN, hingga konfigurasi jaringan
+            Mikrotik.
+          </p>
+          <p>
+            Saya senang bekerja dalam tim, mampu mempelajari teknologi baru secara mandiri, dan terus
+            meningkatkan kemampuan teknis di setiap kesempatan.
+          </p>
+        </div>
+
+        <div class="about__card reveal" style="transition-delay:120ms">
+          <div class="info-row">
+            <div class="info-row__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div>
+              <p class="info-row__title">Teknologi Informasi</p>
+              <p class="info-row__sub">Universitas Bina Sarana Informatika</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="stat-row">
+            <span>Semester</span>
+            <span class="stat-row__value">6</span>
+          </div>
+          <div class="stat-row">
+            <span>IPK</span>
+            <span class="stat-row__value stat-row__value--accent">3.94 / 4.00</span>
+          </div>
+          <div class="divider"></div>
+          <div class="info-row info-row--tight">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Indonesia, Jakarta Barat</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section section--soft">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="section-label__index">02</span>
+        <span class="section-label__line"></span>
+        <span class="section-label__text">Skills</span>
+      </div>
+      <h2 class="section-title reveal">Kemampuan Teknis</h2>
+
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="section-label__index">03</span>
+        <span class="section-label__line"></span>
+        <span class="section-label__text">Projects</span>
+      </div>
+      <h2 class="section-title reveal">Proyek Terpilih</h2>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFICATES ================= -->
+  <section id="certificates" class="section section--soft">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="section-label__index">04</span>
+        <span class="section-label__line"></span>
+        <span class="section-label__text">Certificates</span>
+      </div>
+      <h2 class="section-title reveal">Sertifikasi</h2>
+
+      <div class="certificates-grid" id="certificatesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="section-label__index">05</span>
+        <span class="section-label__line"></span>
+        <span class="section-label__text">Contact</span>
+      </div>
+
+      <div class="contact__grid">
+        <div class="reveal" style="transition-delay:60ms">
+          <h2 class="section-title">Mari berdiskusi tentang proyek atau kolaborasi.</h2>
+          <p class="contact__desc">
+            Terbuka untuk kesempatan magang, kolaborasi proyek, maupun sekadar berbagi cerita seputar
+            teknologi. Jangan ragu untuk menghubungi saya melalui kanal berikut.
+          </p>
+          <div class="social-row">
+            <a href="mailto:barikoprastowo76@gmail.com" class="social-icon" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            </a>
+            <a href="tel:+6285183022569" class="social-icon" aria-label="Phone">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+            <a href="https://github.com/kyor76" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card reveal" style="transition-delay:160ms">
+          <a href="mailto:barikoprastowo76@gmail.com" class="contact-row">
+            <span class="contact-row__icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            </span>
+            <span class="contact-row__text">
+              <span class="contact-row__label">Email</span>
+              <span class="contact-row__value">barikoprastowo76@gmail.com</span>
+            </span>
+          </a>
+          <a href="tel:+6285183022569" class="contact-row">
+            <span class="contact-row__icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <span class="contact-row__text">
+              <span class="contact-row__label">Phone</span>
+              <span class="contact-row__value">085183022569</span>
+            </span>
+          </a>
+          <a href="https://github.com/kyor76" target="_blank" rel="noopener noreferrer" class="contact-row contact-row--last">
+            <span class="contact-row__icon">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </span>
+            <span class="contact-row__text">
+              <span class="contact-row__label">GitHub</span>
+              <span class="contact-row__value">github.com/kyor76</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Bariko Prastowo. All rights reserved.</p>
+      <p class="footer__mono">Built with HTML, CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script_porto.js"></script>
+</body>
+</html>
